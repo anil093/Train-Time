@@ -1,0 +1,138 @@
+ <!doctype html>
+<html>
+    <head>
+        <title>
+        Train Schedule     
+        </title>
+       
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        
+        <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+        
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+    </script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
+</script>
+
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    </head>
+
+
+
+
+     <style>
+        .input-field{
+            margin-left:400px;
+        }
+        #addTrainBtn{
+            margin-left:410px;
+        }
+    </style>
+    <body> 
+        <!-- heading -->
+        <div class="container">
+            
+              <div class ="row">
+                    <div class="col-lg-12">
+        <div class="jumbotron">
+            <h1 class ="text-center animated wobble">Any Time is Train Time</h1>
+            <h4 class ="text-center animated rubberBand">Cho Cho cho</h4>
+             </div>
+             </div>
+        </div>
+        </div>
+        
+
+        <!-- display pannel -->
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+            <div class="card-panel">
+                <h4 class="text-center">Current Train Schedule</h4>
+            </div>
+        </div>
+         </div>
+         </div> 
+
+         <!-- table -->
+          <div class="container">
+             <div class="row">
+                 <div class="col-lg-12">
+                     <table class="table table-striped">
+                         <thead>
+                             <tr>
+                                 <th>Train Name</th>
+                                 
+                                 <th>Destination</th>
+                                
+                                 <th>Frequency</th>
+                                 
+                                 <th>Next Arrival</th>
+                                 
+                                 <th >Minutes Away</th>
+                                
+
+                             </tr>
+                             <td id="trainName"></td>
+                             <td id="destination"></td>
+                             <td id="frequency"></td>
+                             <td id="nextArrival"></td>
+                             <td id="minutesAway"></td>
+                         </thead>
+                     </table>
+                 </div>
+               </div>
+          </div> 
+
+         <!-- info submission panel -->
+
+         <div class ="conatiner">
+             <div class="row">
+                 <div class="col-lg-12">
+                     <div class="card">
+                         <h4 class="card header text-center">Add Your train</h4>
+                     
+                         <div class="card-body">
+                         <form>
+                             <div class=" form-group input-field col-lg-6">
+                                    <label for="">Train Name</label>
+                                 <input type="text" class="form-control validate" id="train-input">
+                            </div>
+                             
+                            <div class="form-group input-field col-lg-6">
+                                    <label for="">Destination</label>
+                                    <input type="text" class="form-control  validate" id="Destination-input">
+                            </div>
+                                
+                            <div class="form-group input-field col-lg-6">
+                                        <label for="">Frequency</label>
+                                        <input type="text" class="form-control validate" id="Frequency-input">
+                            </div>
+                            <div class="form-group input-field col-lg-6">
+                                            <label for="">Next Arrival</label>
+                                            <input type="text" class="form-control validate" id="Arrival-input">
+                            </div>
+                            <div class="form-group input-field col-lg-6">
+                                            <label for="">Minutes Away</label>
+                                            <input type="text" class="form-control validate" id="Minutes-input">
+                             </div>
+                                        <button type="submit" class="btn orange accent-3" id="addTrainBtn">Submit</button>
+                         </form>
+                        </div>
+                     </div>
+                 </div>
+             </div>
+
+         </div>
+
+
+ 
+         <script src="app.js"></script>
+         
+    </body>
+</html> -->
